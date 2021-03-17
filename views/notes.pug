@@ -1,0 +1,8 @@
+extends layout.pug
+
+block content
+    .containier
+        each item in noteList
+            .note-wrapper 
+                a.note(href='/notes/detail')= item
+                a.delete(href='#') Delete

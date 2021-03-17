@@ -59,3 +59,51 @@ a:hover {
     border: none;
     font-size: 1.5rem;
 }
+
+/* Create page */
+.form {
+    max-width: 60%;
+}
+
+label {
+    display: block;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.3rem;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    background: tomato;
+    color: #fff;
+    border: none;
+}
+
+/* Notes page */
+.note-wrapper{
+    display: flex;
+    max-width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.note{
+    font-size: 1.5rem;
+}
+
+.delete{
+    display: inline-block;
+    padding: 5px 10px;
+    background: tomato;
+    color: #fff;
+}
